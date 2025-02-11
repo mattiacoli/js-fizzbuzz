@@ -13,13 +13,14 @@ for (let i= 1; i<= 100; i++){
   let multiThree = (i % 3 === 0);
   let multiFive = (i % 5 === 0);
 
-  if (multiThree){
-    console.log('Fizz');
+  if (multiThree && multiFive){
+    console.log('FizzBuzz');
     
   } else if (multiFive){
     console.log('Buzz');
     
-  }
-
+  } else if  (multiThree){
+    console.log('fizz');    
+  }    
 } 
 
