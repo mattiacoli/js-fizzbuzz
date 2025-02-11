@@ -8,11 +8,11 @@
 // stampare numeri da 1 a 100 con loop for
 
 for (let i= 1; i<= 100; i++){
-  console.log(i);
-
+ 
+// inizializzare variabili per multipli di 3 e di 5
   let multiThree = (i % 3 === 0);
   let multiFive = (i % 5 === 0);
-
+// condizioni
   if (multiThree && multiFive){
     console.log('FizzBuzz');
     
@@ -20,7 +20,11 @@ for (let i= 1; i<= 100; i++){
     console.log('Buzz');
     
   } else if  (multiThree){
-    console.log('fizz');    
-  }    
+    console.log('Fizz');    
+  } else {
+    console.log(i);
+  }
 } 
+
+
 
